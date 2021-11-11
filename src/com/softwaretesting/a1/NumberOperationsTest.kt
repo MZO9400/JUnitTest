@@ -12,6 +12,11 @@ class NumberOperationsTest {
     }
 
     @Test
+    fun addFail() {
+        assertEquals(3, numberOperations.add(1, 1))
+    }
+
+    @Test
     fun subtract() {
         assertEquals(1, numberOperations.subtract(3, 2))
     }
