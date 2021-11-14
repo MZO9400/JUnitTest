@@ -6,5 +6,5 @@ import org.junit.runners.Suite.SuiteClasses
 
 
 @RunWith(Suite::class)
-@SuiteClasses(NumberOperationsTest::class)
+@SuiteClasses(NumberOperationsTest::class, NumberOperationsFailing::class)
 class TestSuite

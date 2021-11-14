@@ -26,16 +26,4 @@ class NumberOperationsTest {
         assertEquals(3, numberOperations.divide(6, 2))
     }
 
-    @Test
-    fun isPrime() {
-        assertEquals(true, numberOperations.isPrime(5))
-        assertEquals(false, numberOperations.isPrime(4))
-        assertEquals(true, numberOperations.isPrime(7))
-    }
-
-    @Test
-    fun distance() {
-        assertEquals(sqrt(13.0), numberOperations.distance(3, 8, 5, 11))
-    }
-
 }
